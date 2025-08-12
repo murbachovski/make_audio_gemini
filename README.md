@@ -1,24 +1,23 @@
 # 프로젝트 제목
 ```
-NASA와 함께하는 우주 대탐험
+MusicGeneration
 ```
 
 # 프로젝트 설명
 ```
-1. NASA에서 선정한 오늘의 우주 구경
-2. 지구 셀카 관찰
-3. 뜨거운 태양 관찰
-4. 자외선 태양 4종 관찰
+1. 프롬프트 입력
+2. 오디오 파일 길이 선택
+3. Gemini AI 오디오 파일 생성
+4. 오디오 파일 듣기 및 다운로드
 ```
 
 # 가상환경 설정
 ```
-conda create -n nasa_gem python=3.9
+conda create -n gem python=3.9
 ```
 
 # API_KEY 설정
 ```
-export NASA_KEY=""
 export GENAI_API_KEY=""
 ```
 
@@ -70,8 +69,6 @@ pip install pipreqs
 [PyPI pipreqs](https://pypi.org/project/pipreqs/)<br>
 
 # Gemini 참고 문서
-[위키독스](https://wikidocs.net/254713)<br>
+[위키독스](https://ai.google.dev/gemini-api/docs/music-generation)<br>
 
-# NASA OpenAPI 참고 문서
-[NASA](https://api.nasa.gov/)<br>
-[NASA OpenAPI 안내](https://ssd-api.jpl.nasa.gov/doc/index.php)<br>
+
